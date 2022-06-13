@@ -63,7 +63,7 @@ model.compile(optimizer='adam',
               loss='sparse_categorical_crossentropy',
               metrics=['acc'])
 # train
-model.fit(train_data, train_label, epochs=200, batch_size=128)
+model.fit(train_data, train_label, epochs=600, batch_size=128)
 model.evaluate(train_data, train_label)
 # model save
 model.save('.\\h5\\model_1.h5')
