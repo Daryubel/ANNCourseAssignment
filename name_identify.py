@@ -79,10 +79,10 @@ predict_x = model.predict(train_predict)
 classes_x = np.argmax(predict_x, axis=1)
 for i in classes_x:
     if i == 0:
-        print('丁')
+        print('何')
     elif i == 1:
-        print('小')
+        print('润')
     elif i == 2:
-        print('林')
+        print('之')
     else:
         print('其他')
